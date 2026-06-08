@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger menu</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Brand</a>
+
+        <button class="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#" class="nav__link">About</a></li>
+                <li><a href="#" class="nav__link">Services</a></li>
+                <li><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <!-- <img src="https://picsum.photos/id/124/200/300" alt="Avawyobt aba"> -->
+
+        <img
+            src="https://picsum.photos/id/124/480/240"
+            srcset="https://picsum.photos/id/124/480/240 480w,
+                    https://picsum.photos/id/124/1200/600 1200w"
+            sizes="(max-width: 600px) 480px, 1200px"
+            alt="Responsive layout example">
+
+        <div class="text-overlap">
+            <h1>Lorem, ipsum.</h1>
+            <p>
+                Lorem ipsum dolor sit amet adipisicing elit. Eveniet provident nulla esse!
+            </p>
+        </div>
+
+    </article>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
